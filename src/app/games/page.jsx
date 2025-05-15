@@ -54,7 +54,7 @@ export default function Games() {
                   id="name"
                   value={searchGames}
                   onChange={(e) => setSearchGames(e.target.value)}
-                  placeholder="Buscar pelo nome do game..."
+                  placeholder="Buscar pelo nome do jogo..."
                   className={styles.searchInput}
                 />
               </div>
